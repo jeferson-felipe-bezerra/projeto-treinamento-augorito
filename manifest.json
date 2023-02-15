@@ -1,0 +1,23 @@
+{
+  "background_color": "#0e38c0",
+  "description": "",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "fotos.produções",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "f.produçoes",
+  "start_url": "/",
+  "theme_color": "#54d7dd",
+  "categories": [
+    "government",
+    "lifestyle",
+    "social",
+    "utilities"
+  ],
+  "screenshots": [],
+  "icons": [],
+  "shortcuts": [],
+  "iarc_rating_id": "12",
+  "prefer_related_applications": true
+}
