@@ -3,7 +3,9 @@ const urlsToCache = [
   '/',
   '/index.html',
   '/styles.css',
-  '/app.webmanifest'
+  '/app.webmanifest',
+  '/imagem',
+  '/LICENSE',
 ];
 
 self.addEventListener('install', function(event) {

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="manifest" href="app.webmanifest" />
+    <link rel="manifest" href="manifest.webmanifest" />
     <meta charset="UTF-8" />
     <meta content='yes' name='apple-mobile-web-app-capable' />
     <meta content='yes' name='mobile-web-app-capable' />
@@ -130,23 +130,6 @@
             </ul>
         
     </footer>
+    <script src="index.js"></script>
 </body>
-<script>
-    if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('./serviceWorker.js')
-    .then(function(registration) {
-      console.log('Service Worker registrado com sucesso:', registration.scope);
-    })
-    .catch(function(error) {
-      console.log('Falha ao registrar o Service Worker:', error);
-    });
-}
-
-  </script>
-  <script>
-    if (typeof navigator.serviceWorker !== 'undefined') {
-      navigator.serviceWorker.register('sw.js')
-    }
-  </script>
-  
 </html>
