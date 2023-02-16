@@ -1,12 +1,12 @@
 {
     "name": "FOTOS E PRODUÇÕES",
     "short_name": "F.PRODUÇÕES",
-    "start_url": "https://jeferson-felipe-bezerra.github.io/projeto-treinamento-augorito/",//
-    "display": "standalone",//ORIENTAÇÃO, NORMAMLMENTE É STANDALONE
-    "background_color": "#fff",//COR DO FUNDO
-    //DESCRIÇÃO DO APLICATIVO
+    "start_url": "https://jeferson-felipe-bezerra.github.io/projeto-treinamento-augorito/",
+    "display": "standalone",
+    "background_color": "#fff",
+   
     "description": "Ajudando Você a Encontrar os Melhores Fotografos",
-    //LOCAL ONDE VAI OS INCONES E DEFINIR TAMANHO 
+  
     "icons": [{
       "src": "/imagem/camera-digital.png",
       "sizes": "48x48",
@@ -35,7 +35,7 @@
     "related_applications": [{
       "platform": "web"
     }, {
-        //LOCAL ONDE VAI FICAR  A PLATAFORMA DE ISTALAÇÃO , COMO EXEMPLO PLAY STORE
+        
       "platform": "play",
       "url": "https://play.google.com/store/apps/details?id=cheeaun.hackerweb"
     }]
