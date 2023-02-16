@@ -1,19 +1,14 @@
 <!DOCTYPE html>
-<link rel="manifest" href="manifest.json">
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="application-name" content="foto.produções">
-<meta name="apple-mobile-web-app-title" content="foto.produções">
-<meta name="theme-color" content="#000000">
-<meta name="msapplication-navbutton-color" content="#000000">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="msapplication-starturl" content="./">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-<link rel="icon" type="image/png">
-<link rel="apple-touch-icon" type="image/png">
 <html lang="pt-br">
 <head>
+    <link rel="manifest" href="manifest.webmanifest">
+    <meta charset="UTF-8" />
+    <meta content='yes' name='apple-mobile-web-app-capable' />
+    <meta content='yes' name='mobile-web-app-capable' />
+    <meta name="apple-mobile-web-app-status-bar" content="#aa7700">
+    <meta name="theme-color" content="black">
+    <link rel="apple-touch-icon" href="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
@@ -136,4 +131,21 @@
         
     </footer>
 </body>
+<script>
+    
+    document.addEventListener("DOMContentLoaded", function (event) {
+        if ('serviceWorker' in navigator) {
+            console.log('has serviceworker');
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('serviceWorker.js')
+                    .then((registration) => {
+                        console.log('Service worker registered.', registration);
+                    });
+            });
+        }
+        else {
+            console.log("Your browser not supports serviceWorkers");
+        }
+    });
+</script>
 </html>
