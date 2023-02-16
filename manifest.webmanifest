@@ -1,9 +1,11 @@
 {
-    "name": "fotosprofisisonais",
-    "short_name": "fotos",
-    "theme_color": "#2196f3",
-    "background_color": "#2196f3",
-    "display": "standalone",
-    "scope": "/projeto-treinamento-augorito/",
-    "start_url": "/https://jeferson-felipe-bezerra.github.io/projeto-treinamento-augorito/"
-  }
+    "name":"fotos.produções",
+    "short_name":"F.produções",
+    "description":"",
+    "start_url":"https://jeferson-felipe-bezerra.github.io/projeto-treinamento-augorito/",
+    "display":"standalone",
+    "orientation":"any",
+    "scope":"//projeto-treinamento-augorito/",
+    "theme_color":"#040a5d",
+    "background_color":"#0dbcd3"
+    }
