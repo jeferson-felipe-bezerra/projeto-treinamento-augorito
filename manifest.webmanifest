@@ -1,11 +1,41 @@
 {
-    "name":"fotos.produções",
-    "short_name":"F.produções",
-    "description":"",
-    "start_url":"https://jeferson-felipe-bezerra.github.io/projeto-treinamento-augorito/",
-    "display":"standalone",
-    "orientation":"any",
-    "scope":"//projeto-treinamento-augorito/",
-    "theme_color":"#040a5d",
-    "background_color":"#0dbcd3"
-    }
+    "name": "fotos.produções",
+    "short_name": "F.produções",
+    "icons": [
+        {
+            "src": "assets/logos/icon-128x128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/logos/icon-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/logos/icon-152x152.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/logos/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "assets/logos/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/logos/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/projects/projeto-treinamento-augorito/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#199332"
+}
